@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ========== BOX ICONS CDN ========== -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+
+    <!-- ========== CSS ========== -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive Side Navigation Bar - CrypticalCoder</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo" id="logo_img">
+            <div class="logo_text">CRYPTICAL</div>
+            <i class="bx bx-menu-alt-right" id="btn"></i>
+        </div>
+        <div class="nav_list">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-grid-alt"></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                    <span class="tooltip">Dashboard</span>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="bx bx-bar-chart"></i>
+                        <span class="links_name">Analytics</span>
+                    </a>
+                    <span class="tooltip">Analytics</span>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="bx bx-chat"></i>
+                        <span class="links_name">Messages</span>
+                    </a>
+                    <span class="tooltip">Messages</span>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="bx bx-folder"></i>
+                        <span class="links_name">File Manager</span>
+                    </a>
+                    <span class="tooltip">Files</span>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="bx bx-user"></i>
+                        <span class="links_name">User</span>
+                    </a>
+                    <span class="tooltip">User</span>
+                </li>
+            </ul>
+            <div class="info">
+                <a href="#">
+                    <img src="img/avatar.png" alt="avator" class="avator">
+                    <div class="table">
+                        <div class="table_text">
+                            <p><span>Upgrade to Pro</span><br> One year support,<br> monthly updates for up to 5 team members</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="tooltip">
+                    <span class="name">The CrypticalCoder</span>
+                    <span class="country">Islamabad, PAK</span>
+                </div>
+            </div>
+            <div class="logout">
+                <a href="#">
+                    <i class="bx bx-log-out"></i>
+                    <span class="links_name">Log out</span>
+                </a>
+                <span class="tooltip">Log out</span>
+            </div>
+        </div>
+    </div>
+    <section class="home">
+        <div class="text">Sidebar</div>
+        <div class="col-lg-12">  
+<h4>Mandate</h4>
+    <p> The Capiz State University (CAPSU) primarily provides advance instruction and professional training in agriculture, fishery and forestry, science and technology, arts and humanities, education and other related fields. It shall also undertake research, extension services and production activities and provide progressive leadership in its areas of specialization.</p> 
+</div>
+    </section>
+    <script>
+        const sidebar = document.querySelector(".sidebar");
+        const btn = document.querySelector("#btn");
+        logo_img.onclick = function()
+        {
+            if(!x.matches)
+            {
+                sidebar.classList.toggle('open');
+            }
+        }
+        btn.onclick = function()
+        {
+            if(!x.matches)
+            {
+                sidebar.classList.remove('open');
+            }
+        }
+        function myFunction(x)
+        {
+            if(x.matches) // if media query matches
+            {
+                sidebar.classList.remove('open');
+            }
+        }
+        var x = window.matchMedia("(max-width: 700px)")
+        {
+            myFunction(x) // call listener function at run time
+            x.addListener(myFunction) // attach listener function on state changes
+        }
+    </script>
+</body>
+</html>

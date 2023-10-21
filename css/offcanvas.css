@@ -1,0 +1,174 @@
+/*
+ * Style twaks
+ * --------------------------------------------------
+ */
+body {
+  padding-top: 70px;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+  .margin{
+    margin-right: 100%;
+  }
+  .alignment {
+    vertical-align: 50%
+  }
+}
+ 
+.navbar-magbanua {
+  background-color: #0000FF;
+  /*border-color: #0000FF;*/
+ border: 1px solid #ffffff;
+}
+
+.navbar-magbanua .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-magbanua .navbar-brand:hover,
+.navbar-magbanua .navbar-brand:focus {
+  color: #000000;
+  /*background-color: #ffffff;*/
+}
+
+.navbar-magbanua .navbar-text {
+  color: #ffffff;
+}
+
+.navbar-magbanua .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-magbanua .navbar-nav > li > a:hover,
+.navbar-magbanua .navbar-nav > li > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navbar-magbanua .navbar-nav > .active > a,
+.navbar-magbanua .navbar-nav > .active > a:hover,
+.navbar-magbanua .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navbar-magbanua .navbar-nav > .disabled > a,
+.navbar-magbanua .navbar-nav > .disabled > a:hover,
+.navbar-magbanua .navbar-nav > .disabled > a:focus {
+  color: #444444;
+  background-color: transparent;
+}
+
+.navbar-magbanua .navbar-toggle {
+  border-color: #0000FF;
+}
+
+.navbar-magbanua .navbar-toggle:hover,
+.navbar-magbanua .navbar-toggle:focus {
+  background-color: #c1d849;
+}
+
+.navbar-magbanua .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-magbanua .navbar-collapse,
+.navbar-magbanua .navbar-form {
+  border-color: #101010;
+}
+
+.navbar-magbanua .navbar-nav > .open > a,
+.navbar-magbanua .navbar-nav > .open > a:hover,
+.navbar-magbanua .navbar-nav > .open > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navbar-magbanua .navbar-nav > .dropdown > a:hover .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.navbar-magbanua .navbar-nav > .dropdown > a .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.navbar-magbanua .navbar-nav > .open > a .caret,
+.navbar-magbanua .navbar-nav > .open > a:hover .caret,
+.navbar-magbanua .navbar-nav > .open > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-magbanua .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #0000FF;
+  }
+  .navbar-magbanua .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-magbanua .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-magbanua .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  .navbar-magbanua .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-magbanua .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-magbanua .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  .navbar-magbanua .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-magbanua .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-magbanua .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #000000;
+    background-color: #ffffff;
+  }
+}
+
+.navbar-magbanua .navbar-link {
+  color: #ffffff;
+}
+
+.navbar-magbanua .navbar-link:hover {
+  color: #ffffff;
+}

@@ -1,0 +1,53 @@
+#title-header {
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 30px;
+}
+#title-header > .title  {
+	width: 1050px;
+	margin-left: 150px;
+}
+#title-header > .title  > p {
+    width: 100%;
+    height: 130px;
+    font-family: "Matura MT Script Capitals";
+    font-size: 90px;
+    text-align: center;
+}
+/*#title-header > .title  > img {
+	width: 100%;
+	height: 130px;
+}*/
+.f-author {
+	 /*border-top: 1px solid #eee;*/
+	 padding: 5px;
+}
+.mg-available-rooms {
+	border-bottom: 1px solid #ddd;
+	/*border-top: 1px solid #ddd;*/
+	margin-bottom: 20px;
+}
+.mg-available-rooms  .s-content{ 
+	text-align: center;
+	padding: 20px;
+}
+  
+@media only screen and (max-width: 768px){
+	#title-header > .title  {
+		margin: 0px;
+		padding: 0px; 
+		height: 90px;
+		width: 100%;
+    }
+   /* #title-header > .title  >img {
+    	width: 100%;
+    	height: auto;
+    }*/
+
+      #title-header > .title  >p {
+        width: 100%; 
+        font-size: 50px;
+    }
+
+ 
+}
